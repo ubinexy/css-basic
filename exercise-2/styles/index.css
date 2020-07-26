@@ -28,6 +28,19 @@ h2 {
     text-align: left;
 }
 
+h1, h2 {
+    font-family: Georgia;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
 p {
     color: AliceBlue;
     line-height: 1.3em;
@@ -35,11 +48,26 @@ p {
     width: 100%;
 }
 
+p {
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+
 .image {
     background-size: cover;
     background-position: center;
     height: 300px;
 }
+
+.image {
+    background-image: url('../img/background-img.jpg');
+}
+
 
 .caption {
     display: block;
@@ -53,3 +81,13 @@ p {
     width: 60%;
 }
 
+.caption {
+    background-color: white;
+    color: black;
+    opacity: 0.75;
+    font-style: italic;
+}
+.caption a:hover {
+    text-decoration: none;
+    color: purple;
+}
