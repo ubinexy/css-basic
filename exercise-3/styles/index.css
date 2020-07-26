@@ -12,6 +12,7 @@ body {
 .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
+    padding: 10px;
 }
 
 .navigation  li.current {
@@ -26,6 +27,7 @@ body {
     background-size: cover;
     background-position: bottom center;
     width: 100%;
+    height: 350px;
 }
 
 h1 {
@@ -37,11 +39,16 @@ h1 {
     font-size: 42px;
     font-weight: 600;
     text-align: center;
+    border: 3px solid white;
 }
 
 #main {
+    margin: 0 auto;
     padding: 40px;
     text-align: center;
+    width: 500px;
+    height: 800px;
+    overflow: scroll;
 }
 
 h2 {
@@ -52,10 +59,14 @@ h2 {
 }
 
 h3 {
+    margin: 30px 20px;
+    padding: 20px 30px;
     color: red;
     font-size: 14px;
     line-height: 48px;
     text-align: center;
+    border: 1px dashed red;
+    border-radius: 3px;
 }
 
 p {
@@ -63,10 +74,12 @@ p {
     color: grey;
     font-size: 16px;
     line-height: 1.5em;
+    margin-top: 40px;
 }
 
 .pull-quote {
-
+    width: 400px;
+    margin: 0 auto;
 }
 
 .byline {
@@ -89,6 +102,8 @@ p {
     background: red;
     border: 1px solid red;
     border-radius: 3px;
+    padding: 14px;
+    margin: 10px;
     color: white;
     display: inline-block;
     text-decoration: none;
@@ -98,4 +113,13 @@ p {
     background: white;
     border: 1px solid red;
     color: red;
+}
+
+.global {
+    visibility: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
